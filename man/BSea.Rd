@@ -15,6 +15,6 @@ data(BSea)
 This data set provides radiocarbon dates made from marine shells with known collection dates sampled in the Bering Sea. There are four samples in this data set organized as columns. For more details see McNeely et al, 2006.
 }
 \references{
-McNeely R, Dyke AS, Southon J. 2006. Canadian marine reservoir ages: preliminary data assessment. Geological Survey of Canada Open File 5049.
+McNeely R, Dyke AS, Southon J. 2006. Canadian marine reservoir ages: preliminary data assessment. Geological Survey of Canada Open File 5049. <doi:10.13140/2.1.1461.6649>
 }
 \keyword{datasets}

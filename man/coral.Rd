@@ -15,6 +15,6 @@ data(coral)
 This data set provides radiocarbon and 230Th dates of corals sampled in the South China Sea. There are five pairs of dates in this data set organized as columns. For more details see Yu et al, 2010.
 }
 \references{
-Yu K, Hua Q, Zhao J, Hodge E, Fink D, Barbetti M. 2010. Holocene marine 14C reservoir age variability: Evidence from 230Th‐dated corals in the South China Sea. Paleoceangraphy. 25: PA3205
+Yu K, Hua Q, Zhao J, Hodge E, Fink D, Barbetti M. 2010. Holocene marine 14C reservoir age variability: Evidence from 230Th-dated corals in the South China Sea. Paleoceangraphy. 25: PA3205 <doi:10.1029/2009PA001831>
 }
 \keyword{datasets}

@@ -4,22 +4,22 @@
 #' @export
 #' @param deltar_list a list produced by the dr_df() function.
 #' @param name an identification code of a data set. Default is blank.
-#' @param method a character vector. If “quantile” is passed to this argument, medians of computed Delta R values will be plotted along with their quantiles. The latter are defined by the “CI” argument during the dr_df() function call. If “density” is passed to this argument, curves of Delta R densities will be plotted on the same plot.
+#' @param method a character vector. If "quantile" is passed to this argument, medians of computed Delta R values will be plotted along with their quantiles. The latter are defined by the "CI" argument during the dr_df() function call. If "density" is passed to this argument, curves of Delta R densities will be plotted on the same plot.
 #' @param lim a numeric vector, which contains values used to expand x-axis limits. Default is zero.
 #' @usage dr_plot(deltar_list, name = "", method = "quantile", lim = c(0,0))
-#' @details This function creates a plot of Delta R values computed for a data set by the dr_df() function. If “quantile” is passed to the “method” argument,  Delta R values computed for each sample or pair are being ordered by their medians and then their medians are plotted along with intervals containing true Delta R value with a previously set probability. If “density” is passed to the “method” argument, curves of Delta R densities will be plotted on the same plot.
+#' @details This function creates a plot of Delta R values computed for a data set by the dr_df() function. If "quantile" is passed to the "method" argument,  Delta R values computed for each sample or pair are being ordered by their medians and then their medians are plotted along with intervals containing true Delta R value with a previously set probability. If "density" is passed to the "method" argument, curves of Delta R densities will be plotted on the same plot.
 #' @return None. Invoked for a side effect (plot).
 #' @seealso \code{\link{dr_shell}} \code{\link{dr_df}} \code{\link{dr_pair}}
-#' @examples # Acquire "adak" data set
-#' data(adak)
+#' @examples # Acquire "BSea" data set
+#' data(BSea)
 #' # Compute Delta R values and store them in the new object
-#' adak_res <- dr_df(adak, make.plot = FALSE)
+#' bsea_res <- dr_df(BSea, method = "shell")
 #' # Plot Delta R values with "quantile" method
-#' dr_plot(adak_res, name = "Adak")
+#' dr_plot(bsea_res, name = "BSea")
 #' # Expand x-axis of the plot
-#' dr_plot(adak_res, name = "Adak", lim = c(100, 200))
+#' dr_plot(bsea_res, name = "BSea", lim = c(150, 250))
 #' # Plot Delta R values with "density" method
-#' dr_plot(adak_res, name = "Adak", method = "density")
+#' dr_plot(bsea_res, name = "BSea", method = "density")
 
 dr_plot <- function(deltar_list, name = "", method = "quantile", lim = c(0,0))
 {

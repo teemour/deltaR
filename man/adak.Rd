@@ -15,6 +15,6 @@ data(adak)
 This data set provides radiocarbon dates made from several archaeological sites in Adak Island (Aleutians Islands, Alaska). Terrestrial and marine samples originating from the same archaeological context were amalgamated in pairs. There are nine pairs in this data set organized as columns. For more details see Khasanov et al., 2015.
 }
 \references{
-Khasanov BF, Nakamura T, Okuno M, Gorlova EN, Krylovich OA, West DL, Hatfield V, Savinetsky AB. 2015. The Marine Radiocarbon Reservoir Effect on Adak Island (Central Aleutian Islands), Alaska. Radiocarbon. 57(5): 955-964
+Khasanov BF, Nakamura T, Okuno M, Gorlova EN, Krylovich OA, West DL, Hatfield V, Savinetsky AB. 2015. The Marine Radiocarbon Reservoir Effect on Adak Island (Central Aleutian Islands), Alaska. Radiocarbon. 57(5): 955-964 <doi:10.2458/azu_rc.57.18329>
 }
 \keyword{datasets}

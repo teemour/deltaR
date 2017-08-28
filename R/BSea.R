@@ -4,5 +4,5 @@
 #' @usage data(BSea)
 #' @format A data frame containing five columns and three rows. First column indicates a type of dates constituting each of four samples stored in the other columns. Rows correspond to (in descending order): sample collection date (in calendar years AD/BC), radiocarbon date of the sample and its standard deviation. Column names indicate sample identification codes, which is further used for sample identification.
 #' @source Data were published in McNeely et al, 2006 and available at CHRONO Marine Reservoir Database (http://calib.qub.ac.uk/marine/).
-#' @references McNeely R, Dyke AS, Southon J. 2006. Canadian marine reservoir ages: preliminary data assessment. Geological Survey of Canada Open File 5049.
+#' @references McNeely R, Dyke AS, Southon J. 2006. Canadian marine reservoir ages: preliminary data assessment. Geological Survey of Canada Open File 5049. <doi:10.13140/2.1.1461.6649>
 "BSea"
